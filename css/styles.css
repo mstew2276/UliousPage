@@ -1,0 +1,308 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background: #d1c7c7;
+    
+  }
+  
+  h1, h2, h3 {
+    font-family: "zapf chancery", zapf chancery
+  }
+
+  h1 {
+    font-size: 70px;
+    background: -webkit-linear-gradient(rgb(253, 70, 70), rgb(248, 236, 107));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  h2 {
+    color: #ffffff;
+  }
+  
+  header h2 {
+    color: #8f8414;
+  }
+
+  h3{
+    text-align: center;
+  }
+  
+
+  p{
+    font-size: 25px;
+    color: rgb(3, 63, 69);
+    border:6px outset rgb(250, 244, 204);
+    background-color: #8eb2c4;
+    
+  }
+  
+  .site-footer {
+    background-image: linear-gradient(#7ccff9, #383838);
+    padding: 20px 0;
+  }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #8eb2c4, #994ba9);
+    color: rgb(245, 244, 245);
+    background-image: url("../assets/img/supra2.jpg");
+    background-size: cover;
+  }
+  
+  .row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+  }
+  
+  .navbar-dark {
+    background-color: rgb(128, 128, 128);
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, .5);
+  }
+  
+
+  .foreground {
+    backdrop-filter: blur(4px);
+   }
+  
+  .tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel {
+    border: solid #1fd52e;
+  }
+  
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+  }
+  
+  #reserveModal .modal-header {
+    background-color: #17A2b8;
+    color: white;
+  }
+  
+  #loginModal .modal-header {
+    background-color: #009d5e;
+    color: white;
+  }/*# sourceMappingURL=styles.css.map */
+
+  .centered {
+    position: absolute;
+    font-family: "Copperplate Gothic Light", Copperplate Gothic Light;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #17A2b8;
+  }
+
+  .centered {
+    font-size: 2.5rem;
+  }
+
+  @media (min-width: 400px) {
+    .centered {
+      font-size: .95rem;
+    }
+  }
+
+  @media (min-width: 576px) {
+    .centered {
+      font-size: 1rem;
+    }
+  }
+
+  @media (min-width: 750px) {
+    .centered {
+      font-size: 1.4rem;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .centered {
+      font-size: 1.8rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .centered {
+      font-size: 2rem;
+    }
+  }
+
+  @media (min-width: 750px) {
+    .jumbotron {
+      background-image: 50%px;
+    }
+  }
+
+  #border {
+    width:250px;
+    height:50px;
+    border:6px outset orange;
+    background-color: #c3d7da;
+    border-radius: 25px;
+  }
+
+  #border2 {
+    width:290px;
+    height:50px;
+    border:6px outset orange;
+    background-color: #c3d7da;
+    border-radius: 25px;
+    
+  }
+
+  #border3 {
+    width:200px;
+    height:50px;
+    border:6px outset orange;
+    background-color: #c3d7da;
+    border-radius: 25px;
+  }
+
+  #border4 {
+    width:140px;
+    height:50px;
+    padding-right: 8px;
+    border:6px outset #c3d7da;
+    background-color: orange;
+    border-radius: 25px;
+  }
+  
+  #border5 {
+    width:160px;
+    height:50px;
+    border:6px outset #c3d7da;
+    background-color: orange;
+    border-radius: 25px;
+  }
+
+  #border6 {
+    width:300px;
+    height:90px;
+    padding-right: 10px;
+    border:6px outset #c3d7da;
+    background-color: orange;
+    border-radius: 25px;
+  }
+
+  #border7 {
+    width: 180px;
+    height: 50px;
+    
+    border:6px outset #c3d7da;
+    background-color: orange;
+    border-radius: 25px;
+  }
+
+
+  #reserveButton {
+    background-color: #cfdcde;
+    border: 6px outset rgb(91, 129, 255);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+    border-radius: 14px;
+  }
+
+  #reserveButton:hover {
+    background-color: #8792fc; 
+    color: rgb(255, 255, 255);
+    
+  }
+  
+  #p2{
+    width: 780px;
+    text-align: center;
+  }
+
+  b{
+    color: #373338;
+    "add font"
+  }
+  p3{
+    color: #373338;
+    "add font"
+  }
+
+  .textbg{
+    background: #000;
+  }
+
+  .square {
+    height: 50px;
+    width: 50px;
+    background-color: #555;
+  }
+
+  .container {
+    text-align: center;
+    left: 0;
+    right: 0;
+   }
+   
+   .contactcontainer {
+    margin-left: 125vh;
+   }
+  
+  .main {
+    position:relative;
+    width: 300px;
+    min-height: 60px;
+    margin: auto;
+    padding-top:15px;
+  }
+  
+  .main:before {
+    content:'';
+    position: absolute;
+    width: 220px;
+    height: 140px;
+    margin: auto;
+    z-index: -1;
+    border: 5px solid lightgray;
+    left:40px;
+  }
+
+  .e30backdrop {
+    background-color: rgb(91, 129, 255);
+    width: 1000px;
+    height: 580px;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .navreserve {
+    padding-left: 20px;
+  }
+
+  .btn-link {
+    color: #000 ;
+}
+
+  /*background-image: url("/r34.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-position-y: 50px;*/
+
+    /*    background-image: url("/driftingae86.gif");
+    background-position: 20px 220px;*/
+
+    
