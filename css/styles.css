@@ -111,6 +111,16 @@ body {
     font-size: 2.5rem;
   }
 
+  .col {
+    margin-left: auto;
+  }
+  .row {
+    margin-right: auto;
+  }
+  .container {
+    margin-left: auto;
+  }
+
   @media (min-width: 400px) {
     .centered {
       font-size: .95rem;
